@@ -1,0 +1,26 @@
+name: hello_world_rest_backend
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^4.15.4
+  firebase_auth: ^4.17.4
+  firebase_core: ^2.25.4
+  firebase_ui_auth: ^1.13.0
+  flutter:
+    sdk: flutter
+  go_router: ^13.2.0
+  google_fonts: ^6.1.0
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
